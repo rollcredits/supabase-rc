@@ -7,7 +7,7 @@
 > 
 > Additionally, supabase has at this point repeatedly pushed breaking or broken changes that are incredibly hard to debug to packages at this point, so it's probably a good thing for us to remain on a forked stable version of the CLI until a later date when we need to update things.*
 >
-> ** How to use this?**
+> **How to use this?**
 > I uploaded a modified version of the supabase CLI to npm under the name "supabase-rc", and created a repository in our organization with the same name containing the code changes.
 > Replace the "supabase" dependency in your `package.json` with the following:
 >  ```json
