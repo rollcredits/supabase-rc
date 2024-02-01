@@ -1,3 +1,16 @@
+# supabase-rc
+> **Why does this exist?**
+> 
+> I uploaded a modified version of the supabase CLI to npm under the name "supabase-rc", and created a repository in our organization with the same name containing the code changes.
+> 
+> On Ubuntu I was repeatedly getting errors regarding health checks for supabase docker containers using the CLI from the supabase project.
+> 
+> These changes should not affect anything else in our application, but will make supabase actually work without a struggle session on Ubuntu.
+> 
+> Additionally, supabase has at this point repeatedly pushed breaking or broken changes that are incredibly hard to debug to packages at this point, so it's probably a good thing for us to remain on a forked stable version of the CLI until a later date when we need to update things.*
+
+----
+
 # Supabase CLI (v1)
 
 [![Coverage Status](https://coveralls.io/repos/github/supabase/cli/badge.svg?branch=main)](https://coveralls.io/github/supabase/cli?branch=main)
