@@ -1,7 +1,7 @@
 # supabase-rc
 > **Why does this exist?**
 >  
-> On Ubuntu I was repeatedly getting errors regarding health checks for supabase docker containers using the CLI from the supabase project.
+> On Ubuntu I was repeatedly getting errors regarding health checks for supabase docker containers using the CLI from the supabase project. As a result, I downloaded their CLI, changed some of the golang files regarding this, and rebuilt the CLI.
 > 
 > These changes should not affect anything else in our application, but will make supabase actually work without a struggle session on Ubuntu.
 > 
